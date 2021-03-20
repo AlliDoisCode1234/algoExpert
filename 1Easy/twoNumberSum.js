@@ -1,3 +1,13 @@
+// Space Time Complexity 
+//
+//
+// O(nLog(n)) time | O(1) space
+//
+//
+//
+
+
+
 function twoNumberSum(array, targetSum) {
     // input1 => non-empty array of distinct integers
       // input2 => integer representing a target sum
@@ -12,7 +22,7 @@ function twoNumberSum(array, targetSum) {
       // You can assume that there will be at most one pair of numbers that equal target sum
       
       // // Hash Table
-      // // O(nLog(n)) | O(1) space
+      // // O(nLog(n)) time | O(1) space
       // Cost extra space but makes it run faster
       
       // Traverse array and store every number in a hash table

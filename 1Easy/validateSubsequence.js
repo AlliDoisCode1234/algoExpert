@@ -1,3 +1,11 @@
+// Space Time Complexity 
+//
+//
+// O(n) time | O(1) space - where n is the length of the array
+//
+//
+//
+
 function isValidSubsequence(array, sequence) {
     // given two non-empty arrays of integers
     // determine if second array is a subsequence of the first array
