@@ -33,7 +33,6 @@ function fourNumberSum(array, targetSum) {
           }
       }
       return quadruplets;
-      
   }
   
   console.log(fourNumberSum([1,2,3,4,5,6,7,8], 15))
