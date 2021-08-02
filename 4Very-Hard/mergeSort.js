@@ -113,6 +113,10 @@
 
 // BEST SOLUTION :
 
+// Best: O(nlog(n)) time | O(n) space
+// Average: O(nlog(n)) time | O(n) space
+// Worst: O(nlog(n)) time | O(n) space
+
 function mergeSort(array) {
 	if (array.length <= 1) return array;
 	const auxiliaryArray = array.slice();
