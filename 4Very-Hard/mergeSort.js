@@ -129,7 +129,7 @@ function mergeSortHelper(mainArray, startIdx, endIdx, auxiliaryArray) {
 	const middleIdx = Math.floor((startIdx + endIdx) / 2);
 	mergeSortHelper(auxiliaryArray, startIdx, middleIdx, mainArray);
 	mergeSortHelper(auxiliaryArray, middleIdx + 1, endIdx, mainArray);
-	DocumentFragment(mainArray, startIdx, middleIdx, endIdx, auxiliaryArray);
+	doMerge(mainArray, startIdx, middleIdx, endIdx, auxiliaryArray);
 }
 
 function doMerge(mainArray, startIdx, middleIdx, endIdx, auxiliaryArray) {
